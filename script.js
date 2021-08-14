@@ -9,7 +9,7 @@ document.querySelector("#input_F").addEventListener("click", lastClick);
 document.querySelector("#input_C").addEventListener("click", lastClick);
 document.querySelector("#input_F").addEventListener("input", inputF);
 document.querySelector("#input_C").addEventListener("input", inputC); 
-// function list
+// Function list
 function resetClick() {
     f.value = "", c.value = "", x = -1; 
 }
