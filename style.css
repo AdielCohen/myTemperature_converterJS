@@ -1,0 +1,35 @@
+* {
+    font-size: 22px;
+    font-family: monospace;
+}
+
+adiel {
+    display: grid;
+    margin: auto;
+    margin-top: 5%;
+    width: 900px;
+}
+
+input {
+    font-size: 18px;
+}
+
+.grid-container {
+    display: inline-grid;
+    grid-template-columns: auto auto auto;
+    line-height: 2;
+}
+
+.grid-container > div {
+    border: 2px solid rgb(35, 77, 85);
+    padding: 15px;
+    background-color: rgb(214, 255, 253);
+}
+
+.grid-container div:nth-child(2) {
+    text-align: center;
+}
+
+
+
+
