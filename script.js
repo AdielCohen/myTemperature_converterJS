@@ -1,5 +1,5 @@
     // Var list
-	var c = document.querySelector("#input_C");
+    var c = document.querySelector("#input_C");
     var f = document.querySelector("#input_F");
     var res, x = -1;
     // Object list
